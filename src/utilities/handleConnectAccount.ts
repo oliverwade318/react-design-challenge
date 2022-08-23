@@ -27,7 +27,7 @@ export const handleConnectAccount = async (
 
   setLoading(false);
   if (response) {
-    showToastMessage(response, "Account Connected Successfully");
+    showToastMessage(response, "Your account has been successfully connected.");
     const accountsStateClone = [...accountsState];
     for (let i = 0; i < accountsState.length; i++) {
       const currAccount: Account = accountsState[i];
@@ -39,5 +39,5 @@ export const handleConnectAccount = async (
     setAccountsState(accountsStateClone);
     return;
   }
-  showToastMessage(response, "Error! Try again!");
+  showToastMessage(response, "Something went wrong. Please try again.");
 };

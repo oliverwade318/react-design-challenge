@@ -6,7 +6,7 @@ export const handleRemoveAccount = (
   accountsState: any,
   setAccountsState: any
 ) => {
-  showToastMessage(true, "Account Removed Successfully");
+  showToastMessage(true, "Your account has been successfully removed.");
   const accountsStateClone = [...accountsState];
   for (let i = 0; i < accountsState.length; i++) {
     const currAccount: Account = accountsState[i];
@@ -24,10 +24,10 @@ export const handleRelinkAccount = (
   setAccountsState: any
 ) => {
   if (account.status === "linked") {
-    showToastMessage(false, "Account already Linked");
+    showToastMessage(false, "Account already linked.");
     return;
   }
-  showToastMessage(true, "Account Relinked Successfully");
+  showToastMessage(true, "Your account has been reconnected.");
   const accountsStateClone = [...accountsState];
   for (let i = 0; i < accountsState.length; i++) {
     const currAccount: Account = accountsState[i];
