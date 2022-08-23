@@ -9,8 +9,7 @@
 - One of the three links should have the 'EXPIRED' status
 - One of the links should have additional information on hover
  
-<img width="539" alt="Screen Shot 2022-08-23 at 9 26 17 AM" src="https://user-images.githubusercontent.com/53712919/186211514-e387b9b4-5d7b-434a-b124-900fd34c59e4.png">
-
+<img width="466" alt="Screen Shot 2022-08-23 at 9 30 01 AM" src="https://user-images.githubusercontent.com/53712919/186212203-7335932f-5c68-4b8f-8c6d-575a53e32271.png">
 
 
 ## Available Scripts
