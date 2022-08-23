@@ -8,6 +8,8 @@
 - Once the async promise resolves, the account should be removed from the unlinked list and added to the linked accounts list.
 - One of the three links should have the 'EXPIRED' status
 - One of the links should have additional information on hover
+ 
+<img width="466" alt="Screen Shot 2022-08-23 at 9 30 01 AM" src="https://user-images.githubusercontent.com/53712919/186212203-7335932f-5c68-4b8f-8c6d-575a53e32271.png">
 
 
 ## Available Scripts
