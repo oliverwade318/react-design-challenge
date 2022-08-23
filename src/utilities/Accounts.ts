@@ -13,41 +13,41 @@ export const Accounts: Account[] = [
     username: "@rellasocial | Business",
     status: "unlinked",
     social: "Instagram",
-    additionalHover: false,
+    additionalHover: false
   },
   {
-    name: "Rella Content",
-    username: "@rellasocial | Business",
+    name: "Nathacha Bomparte",
+    username: "rellasocial",
     status: "unlinked",
     social: "Facebook",
-    additionalHover: false,
+    additionalHover: false
   },
   {
     name: "Rella Content",
-    username: "@rellasocial | Business",
+    username: "rellasocial",
     status: "unlinked",
     social: "Tiktok",
-    additionalHover: false,
+    additionalHover: false
   },
   {
     name: "Rella Content",
-    username: "@rellasocial | Business",
+    username: "rellasocial",
     status: "linked",
     social: "Youtube",
-    additionalHover: true,
+    additionalHover: true
   },
   {
     name: "Rella Content",
-    username: "@rellasocial | Business",
+    username: "rellasocial",
     status: "expired",
     social: "Linkedin",
-    additionalHover: false,
+    additionalHover: false
   },
   {
     name: "Rella Content",
-    username: "@rellasocial | Business",
+    username: "rellasocial",
     status: "expired",
     social: "Pinterest",
-    additionalHover: false,
-  },
+    additionalHover: false
+  }
 ];
